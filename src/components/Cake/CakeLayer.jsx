@@ -8,10 +8,20 @@ const CakeLayer = ({ layer }) => {
       className="cake-layer"
       style={{
         backgroundColor: color,
-        width: `${width * 10}px`,
-        height: `${height * 10}px`,
+        width: `${width * 40}px`,
+        height: `${height * 20}px`,
+
       }}
-    ></div>
+      
+    >
+      <div className="top"
+      style={{
+        backgroundColor: color,
+        width: `${width * 39.5}px`,
+        height: `${height * 3}px`,
+
+      }}></div>
+    </div>
   );
 };
 
